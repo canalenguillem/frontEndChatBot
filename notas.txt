@@ -1,0 +1,80 @@
+ 
+ node --version
+ npm i -g ts-node
+ yarn create vite .
+
+ #### package.json ###
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-media-recorder": "^1.6.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
+
+
+ ### #### ###
+
+ yarn --exact
+
+ ##tailwindcss
+ https://tailwindcss.com/docs/guides/vite
+ npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+function App() {
+  return (
+    <div className="">
+      <div className="text-2xl bg-blue-500">Hello</div>
+    </div>
+  );
+}
+
+export default App;
+
+yarn build
+
+yarn start (producción)
+yarn dev (desarrollo)
+
+API Keys
+Eleven Labs: https://beta.elevenlabs.io/subscription
+
+Click on profile image > Profile
+
+
+
+Open AI API Key: https://platform.openai.com/account/api-keys
+
+Just create a key and copy it
+
+
+
+Open AI Org: https://platform.openai.com/account/org-settings
+
+Just copy your org id
+
+ 
+
+
+ 
